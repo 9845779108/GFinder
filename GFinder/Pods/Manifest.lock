@@ -17,18 +17,23 @@ PODS:
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
   - AFNetworking
   - MagicalRecord
+  - SDWebImage
   - SVProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: f6455d1440d49c8d3f59861fe01dcb736836b4c5
+PODFILE CHECKSUM: eabb76d79ce7dbad841082d55e019eeae5157ca0
 
 COCOAPODS: 1.0.1

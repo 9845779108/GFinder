@@ -7,14 +7,10 @@ target 'GFinder' do
 
   # Pods for GFinder
 
-   pod ‘MagicalRecord’
+   pod 'MagicalRecord'
    pod 'SVProgressHUD'
    pod 'AFNetworking'
-
-
-
-
-
+   pod 'SDWebImage'
 
   target 'GFinderTests' do
     inherit! :search_paths
