@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08B235D4ABC38521925129E5 /* Pods_GFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD48BC08F5423C9F2F61100 /* Pods_GFinderUITests.framework */; };
+		AE4E34EB53050835C2B2AF5C /* Pods_GFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9A6F82B2BCAC02D5E2FEB /* Pods_GFinderTests.framework */; };
 		E875C1321D3402C500D78D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E875C1311D3402C500D78D8F /* AppDelegate.swift */; };
 		E875C1341D3402C500D78D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E875C1331D3402C500D78D8F /* ViewController.swift */; };
 		E875C1371D3402C500D78D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E875C1351D3402C500D78D8F /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		E875C13C1D3402C500D78D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E875C13A1D3402C500D78D8F /* LaunchScreen.storyboard */; };
 		E875C1471D3402C500D78D8F /* GFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E875C1461D3402C500D78D8F /* GFinderTests.swift */; };
 		E875C1521D3402C500D78D8F /* GFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E875C1511D3402C500D78D8F /* GFinderUITests.swift */; };
+		EF96378FE01E3F143733D277 /* Pods_GFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E498CC4FF3B032C0AA1940 /* Pods_GFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		628E22A0EEBCB27E525A001D /* Pods-GFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFinderUITests/Pods-GFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68180BF5F3E80465D6BD3271 /* Pods-GFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFinderUITests/Pods-GFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD48BC08F5423C9F2F61100 /* Pods_GFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEF10CCF9A38E72308BF3FF /* Pods-GFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFinder/Pods-GFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD3DC1CE2D807A32D2227E1 /* Pods-GFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFinder/Pods-GFinder.release.xcconfig"; sourceTree = "<group>"; };
+		DD21F466FEE7F97FF2A812EF /* Pods-GFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFinderTests/Pods-GFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7E9A6F82B2BCAC02D5E2FEB /* Pods_GFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E875C12E1D3402C500D78D8F /* GFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E875C1311D3402C500D78D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E875C1331D3402C500D78D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		E875C14D1D3402C500D78D8F /* GFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E875C1511D3402C500D78D8F /* GFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFinderUITests.swift; sourceTree = "<group>"; };
 		E875C1531D3402C500D78D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E498CC4FF3B032C0AA1940 /* Pods_GFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283D26594EDF827EBA358E7 /* Pods-GFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFinderTests/Pods-GFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF96378FE01E3F143733D277 /* Pods_GFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4E34EB53050835C2B2AF5C /* Pods_GFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B235D4ABC38521925129E5 /* Pods_GFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ECC92A413F87147D82463E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF10CCF9A38E72308BF3FF /* Pods-GFinder.debug.xcconfig */,
+				BCD3DC1CE2D807A32D2227E1 /* Pods-GFinder.release.xcconfig */,
+				F283D26594EDF827EBA358E7 /* Pods-GFinderTests.debug.xcconfig */,
+				DD21F466FEE7F97FF2A812EF /* Pods-GFinderTests.release.xcconfig */,
+				68180BF5F3E80465D6BD3271 /* Pods-GFinderUITests.debug.xcconfig */,
+				628E22A0EEBCB27E525A001D /* Pods-GFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E875C1251D3402C500D78D8F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				E875C1451D3402C500D78D8F /* GFinderTests */,
 				E875C1501D3402C500D78D8F /* GFinderUITests */,
 				E875C12F1D3402C500D78D8F /* Products */,
+				5ECC92A413F87147D82463E8 /* Pods */,
+				FA40A2DC5980F4E3D331B708 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				E875C1311D3402C500D78D8F /* AppDelegate.swift */,
-				E875C1331D3402C500D78D8F /* ViewController.swift */,
-				E875C1351D3402C500D78D8F /* Main.storyboard */,
-				E875C1381D3402C500D78D8F /* Assets.xcassets */,
-				E875C13A1D3402C500D78D8F /* LaunchScreen.storyboard */,
+				E875C15F1D3404E100D78D8F /* ViewControllers */,
+				E875C1601D34058400D78D8F /* Resources */,
 				E875C13D1D3402C500D78D8F /* Info.plist */,
 			);
 			path = GFinder;
@@ -125,6 +153,50 @@
 			path = GFinderUITests;
 			sourceTree = "<group>";
 		};
+		E875C15F1D3404E100D78D8F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E875C1331D3402C500D78D8F /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E875C1601D34058400D78D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E875C1621D3405BA00D78D8F /* Images */,
+				E875C1611D34059000D78D8F /* StoryBoards */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E875C1611D34059000D78D8F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E875C1351D3402C500D78D8F /* Main.storyboard */,
+				E875C13A1D3402C500D78D8F /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E875C1621D3405BA00D78D8F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E875C1381D3402C500D78D8F /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FA40A2DC5980F4E3D331B708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E498CC4FF3B032C0AA1940 /* Pods_GFinder.framework */,
+				E7E9A6F82B2BCAC02D5E2FEB /* Pods_GFinderTests.framework */,
+				7FD48BC08F5423C9F2F61100 /* Pods_GFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E875C1561D3402C500D78D8F /* Build configuration list for PBXNativeTarget "GFinder" */;
 			buildPhases = (
+				D2C1B2679BB0550D836482C6 /* [CP] Check Pods Manifest.lock */,
 				E875C12A1D3402C500D78D8F /* Sources */,
 				E875C12B1D3402C500D78D8F /* Frameworks */,
 				E875C12C1D3402C500D78D8F /* Resources */,
+				F96225BC9305F42B3F2C70D5 /* [CP] Embed Pods Frameworks */,
+				8310CE00B549C552CE1662C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E875C1591D3402C500D78D8F /* Build configuration list for PBXNativeTarget "GFinderTests" */;
 			buildPhases = (
+				F51BAA96A21A6539CF707298 /* [CP] Check Pods Manifest.lock */,
 				E875C13E1D3402C500D78D8F /* Sources */,
 				E875C13F1D3402C500D78D8F /* Frameworks */,
 				E875C1401D3402C500D78D8F /* Resources */,
+				D344CE6901E9497A83DAD988 /* [CP] Embed Pods Frameworks */,
+				AD8F728F1E2ABBA123708947 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E875C15C1D3402C500D78D8F /* Build configuration list for PBXNativeTarget "GFinderUITests" */;
 			buildPhases = (
+				416E18DB34D05FFC6E75892F /* [CP] Check Pods Manifest.lock */,
 				E875C1491D3402C500D78D8F /* Sources */,
 				E875C14A1D3402C500D78D8F /* Frameworks */,
 				E875C14B1D3402C500D78D8F /* Resources */,
+				A344B1EB5DB7D71DE36E1C63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +329,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		416E18DB34D05FFC6E75892F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8310CE00B549C552CE1662C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFinder/Pods-GFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A344B1EB5DB7D71DE36E1C63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFinderUITests/Pods-GFinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8F728F1E2ABBA123708947 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFinderTests/Pods-GFinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C1B2679BB0550D836482C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D344CE6901E9497A83DAD988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFinderTests/Pods-GFinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51BAA96A21A6539CF707298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F96225BC9305F42B3F2C70D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFinder/Pods-GFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E875C12A1D3402C500D78D8F /* Sources */ = {
@@ -396,6 +599,7 @@
 		};
 		E875C1571D3402C500D78D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BEF10CCF9A38E72308BF3FF /* Pods-GFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GFinder/Info.plist;
@@ -408,6 +612,7 @@
 		};
 		E875C1581D3402C500D78D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD3DC1CE2D807A32D2227E1 /* Pods-GFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GFinder/Info.plist;
@@ -420,6 +625,7 @@
 		};
 		E875C15A1D3402C500D78D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F283D26594EDF827EBA358E7 /* Pods-GFinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GFinderTests/Info.plist;
@@ -432,6 +638,7 @@
 		};
 		E875C15B1D3402C500D78D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD21F466FEE7F97FF2A812EF /* Pods-GFinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GFinderTests/Info.plist;
@@ -444,6 +651,7 @@
 		};
 		E875C15D1D3402C500D78D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68180BF5F3E80465D6BD3271 /* Pods-GFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GFinderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +664,7 @@
 		};
 		E875C15E1D3402C500D78D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628E22A0EEBCB27E525A001D /* Pods-GFinderUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GFinderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,6 +694,7 @@
 				E875C1581D3402C500D78D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E875C1591D3402C500D78D8F /* Build configuration list for PBXNativeTarget "GFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +703,7 @@
 				E875C15B1D3402C500D78D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E875C15C1D3402C500D78D8F /* Build configuration list for PBXNativeTarget "GFinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +712,7 @@
 				E875C15E1D3402C500D78D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
